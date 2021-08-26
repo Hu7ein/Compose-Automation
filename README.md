@@ -13,12 +13,12 @@ java runtime environment used is 1.8
 
 all required JAR files are uploaded in the repo
 
-Test details
-test window is opened
-user is logged in to gmail
-compose window is being opened
-recipients are added 
-subject is added
-body is added
-mail is being sent
-test window is closed
+Test details:
+test window is opened,
+user is logged in to gmail,
+compose window is being opened,
+recipients are added, 
+subject is added,
+body is added,
+mail is being sent,
+test window is closed.
