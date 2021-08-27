@@ -10,13 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class compose 
 {
-	//Setting path of Chrome driver	
-	static
-	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Asus\\Desktop\\Selenium\\chromedriver.exe");
-	}
+	
 	public static void main(String[] args) throws InterruptedException, IOException 
 	{
+		  //Setting path of Chrome driver
+		  System.setProperty("webdriver.chrome.driver","C:\\Users\\Asus\\Desktop\\Selenium\\chromedriver.exe");
+		 
 		  //Initializing the Chrome driver	
 		  ChromeDriver driver = new ChromeDriver();
 		  driver.manage().window().maximize();
@@ -26,9 +25,9 @@ public class compose
 		
 		  //Entering the Email ID 
 		  System.out.println("Enter Email: ");
-		  Scanner scan1 = new Scanner(System.in);
+		  Scanner sender_email = new Scanner(System.in);
 		  String email;
-		  email =  scan1.nextLine();	
+		  email =  sender_email.nextLine();	
 		  WebElement username = driver.findElement(By.id("identifierId"));
 		  username.sendKeys(email);
 		  
@@ -65,11 +64,11 @@ public class compose
 		  //Initializing the object email_validator class    
 		  email_validator ev = new email_validator();
 	  
-	      //for loop for entering multiple recipients email addresses	  
+	      	  //for loop for entering multiple recipients email addresses	  
 		  for(String reciever_email : reciever){
 			 
-				Thread.sleep(1000);
-			    //Checking that recipients email are Valid		  
+			      	Thread.sleep(1000);
+			    	//Checking that recipients email are Valid		  
 				
 				if(!ev.isValid(reciever_email)) 
 					  {
@@ -77,7 +76,7 @@ public class compose
 						  System.out.print("\n Email not valid   " + reciever_email);
 						  continue;
 				 	  }
-			    //if email are valid adding them to recipients box in the compose window	
+			    	//if email are valid adding them to recipients box in the compose window	
 				reciever_email += " ";
 				WebElement to_email= driver.findElement(By.xpath("//textarea[@name='to']"));
 				to_email.sendKeys(reciever_email);  
