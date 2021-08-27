@@ -20,7 +20,7 @@ public class file_scanner {
 		   //if file has data then it will store data in the variable and will return it to the main method  
 		   st += sc.nextLine();
 	   }
-	 	return st; 
+	 return st; 
 	}
 
 }
