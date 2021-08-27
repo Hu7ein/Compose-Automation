@@ -11,6 +11,8 @@ IDE used is Eclipse version 2021-06 -> https://www.eclipse.org/downloads/downloa
 
 email_list.txt is also uploaded you can make your own, only conditon is emails should be seperated by ',' (comma).
 
+Excel Sheet of test cases is also attached.
+
 java runtime environment used is 1.8
 
 all required JAR files are uploaded in the repo
