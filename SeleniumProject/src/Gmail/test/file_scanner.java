@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class file_scanner {
 	
-    //extracting data from file and sending it to the main method 	
+    	//extracting data from file and sending it to the main method 	
 	protected String email_list() throws IOException
 	{  
 	   //creating a file variable to read from the file	
