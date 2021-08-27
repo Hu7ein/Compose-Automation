@@ -9,6 +9,8 @@ chrome driver version 92.0.4515.107 -> https://chromedriver.storage.googleapis.c
 
 IDE used is Eclipse version 2021-06 -> https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe
 
+email_list.txt is also uploaded you can make your own, only conditon is emails should be seperated by ',' (comma).
+
 java runtime environment used is 1.8
 
 all required JAR files are uploaded in the repo
