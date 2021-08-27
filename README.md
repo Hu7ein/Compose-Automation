@@ -1,6 +1,19 @@
 # Compose-Automation
 This repo contains the code and jar files for the automation of the compose function in Gmail.
 
+Test details:
+test window is opened,
+user is logged in to gmail,
+compose window is being opened,
+recipients are added, 
+subject is added,
+body is added,
+mail is being sent,
+test window is closed.
+
+the main code can be found in SeleniumProject>src>Gmail>test 
+link to the driver code -> https://github.com/Hu7ein/Compose-Automation/tree/main/SeleniumProject/src/Gmail/test
+
 selenium (java) version used  3.141.59 -> https://github.com/SeleniumHQ/selenium/releases/download/selenium-3.141.59/selenium-java-3.141.59.zip
 
 browser used for this test is Google chrome Version 92.0.4515.159 -> https://www.google.com/chrome/
@@ -16,13 +29,3 @@ Excel Sheet of test cases is also attached.
 java runtime environment used is 1.8
 
 all required JAR files are uploaded in the repo
-
-Test details:
-test window is opened,
-user is logged in to gmail,
-compose window is being opened,
-recipients are added, 
-subject is added,
-body is added,
-mail is being sent,
-test window is closed.
